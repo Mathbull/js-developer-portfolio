@@ -13,19 +13,19 @@
       },
       {
         "name": "HTML",
-        "logo": "https://github.com/Mathbull/js-developer-portfolio/blob/main/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://github.com/Mathbull/js-developer-portfolio/blob/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/data/imgs/css.png"
       },
       {
         "name": "JS",
-        "logo": "https://github.com/Mathbull/js-developer-portfolio/blob/main/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
         "name": "Vscode",
-        "logo": "https://github.com/Mathbull/js-developer-portfolio/blob/main/data/imgs/vscode.png"
+        "logo": "https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/data/imgs/vscode.png"
       }
       
     ],
