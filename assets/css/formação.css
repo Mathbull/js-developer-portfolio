@@ -1,0 +1,90 @@
+.formação{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formação .esxtracurricular ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.esxtracurricular ul li{
+    margin-bottom: 1rem;
+}
+.dio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+.dio p{
+    font-weight: 700;
+    font-size: rem;
+}
+
+.formação .academicas ul{
+    list-style:none;
+    padding: 0;
+}
+.formação .academicas ul{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    .formação{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}

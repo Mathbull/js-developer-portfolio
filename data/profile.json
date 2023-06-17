@@ -43,6 +43,40 @@
     "Espanhol (iniciante)",
     "Italiano (iniciante)"
   ],
+
+"formção":{
+  "extracurriculares":{
+    "dio":  {   
+      "nome":"JS developer",
+      "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/js%20developer.jpg"
+            },
+    "cursos":[
+      {
+        "nome": "Formação JaavaScript Developer - DIO.ME",
+        "cargaHoraria":"39 horas"
+      },
+      {
+        "nome": "Chat GPT - Undemy",
+        "cargaHoraria":"6.5 horas"
+      }
+]},
+    "academicas":[
+    {
+      "nome": "UNIP - Graduação em Ciência da Computação",
+      "date": "inicio em 01/23 e conclução em 2027"
+    },
+    {
+      "nome": "Trianos - Técnico de Enfermagem",
+      "cargaHoraria":"Trianos - Técnico de Enfermagem"
+    },{
+      "nome": "E.E OZIEL - Ensino Médio",
+      "cargaHoraria":"conclução 2015"
+    }
+
+  ]},
+
+
+
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
