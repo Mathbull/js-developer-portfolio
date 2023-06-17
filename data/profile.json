@@ -44,66 +44,61 @@
     "Italiano (iniciante)"
   ],
 
-"formção":{
-  "extracurriculares":{
-    "dio":  {   
-      "nome":"JS developer",
-      "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/js%20developer.jpg"
-            },
-    "cursos":[
+  "formção":{
+    "extracurriculares":{
+      "dio":  {   
+        "nome":"JS developer",
+        "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/js%20developer.jpg"
+              },
+      "cursos":[
+        {
+          "nome": "Formação JaavaScript Developer - DIO.ME",
+          "cargaHoraria":"39 horas"
+        },
+        {
+          "nome": "Chat GPT - Undemy",
+          "cargaHoraria":"6.5 horas"
+        }
+  ]},
+      "academicas":[
       {
-        "nome": "Formação JaavaScript Developer - DIO.ME",
-        "cargaHoraria":"39 horas"
+        "nome": "UNIP - Graduação em Ciência da Computação",
+        "date": "inicio em 01/23 e conclução em 2027"
       },
       {
-        "nome": "Chat GPT - Undemy",
-        "cargaHoraria":"6.5 horas"
+        "nome": "Trianos - Técnico de Enfermagem",
+        "cargaHoraria":"Trianos - Técnico de Enfermagem"
+      },{
+        "nome": "E.E OZIEL - Ensino Médio",
+        "cargaHoraria":"conclução 2015"
       }
-]},
-    "academicas":[
-    {
-      "nome": "UNIP - Graduação em Ciência da Computação",
-      "date": "inicio em 01/23 e conclução em 2027"
-    },
-    {
-      "nome": "Trianos - Técnico de Enfermagem",
-      "cargaHoraria":"Trianos - Técnico de Enfermagem"
-    },{
-      "nome": "E.E OZIEL - Ensino Médio",
-      "cargaHoraria":"conclução 2015"
-    }
 
-  ]},
+    ]},
 
 
 
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Aula Ministrado na DIO para a criação de um Portifolio",
+      "url": "https://github.com/Mathbull/js-developer-portfolio",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Aula Ministrado na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/Mathbull/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Atividade prática supervisionada, UNIP",
+      "url": "https://github.com/Mathbull/Atividade-pratica-UNIP",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Enfermagem",
+      "period": "2021 - até o momento",
+      "description": "Minhas experiencias profissionais são até o momento na área da saúde onde estou a mais de 3 anos. Aprocura do meu primeiro emprogo na área."
     }
   ]
 }
