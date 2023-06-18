@@ -46,10 +46,10 @@
 
   "formção":{
     "extracurriculares":{
-      "dio":  {   
+      "dio": [ {   
         "nome":"JS developer",
         "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/js%20developer.jpg"
-              },
+              }],
       "cursos":[
         {
           "nome": "Formação JaavaScript Developer - DIO.ME",
@@ -63,14 +63,14 @@
       "academicas":[
       {
         "nome": "UNIP - Graduação em Ciência da Computação",
-        "date": "inicio em 01/23 e conclução em 2027"
+        "date": "Inicio em 01/23 e conclução em 2027"
       },
       {
         "nome": "Trianos - Técnico de Enfermagem",
-        "cargaHoraria":"Trianos - Técnico de Enfermagem"
+        "date":"Conclução 2020"
       },{
         "nome": "E.E OZIEL - Ensino Médio",
-        "cargaHoraria":"conclução 2015"
+        "date":"Conclução 2015"
       }
 
     ]},
@@ -97,7 +97,7 @@
   "professionalExperience": [
     {
       "name": "Enfermagem",
-      "period": "2021 - até o momento",
+      "period": "2020 - até o momento",
       "description": "Minhas experiencias profissionais são até o momento na área da saúde onde estou a mais de 3 anos. Aprocura do meu primeiro emprogo na área."
     }
   ]

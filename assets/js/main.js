@@ -64,7 +64,7 @@ function updatePorfileInfo(profileDate){
          return `
          <li>
          <h3 class="title ">${experience.name}</h3>
-         <p class="period" >${experience.pediod}</p>
+         <p class="period" >${experience.period}</p>
          <p>
              ${experience.description}
          </p>
@@ -73,6 +73,39 @@ function updatePorfileInfo(profileDate){
      }).join('')
  }
  
+function updateFormaçãoAcademica(profileDate){
+    const formaçãoAcademica = document.getElementById('profile.formação.academica')
+    formaçãoAcademica.innerHTML = profileDate.formção.academicas.map(academicas =>{
+        return`
+        <li>
+                <h3 class="title ">${academicas.nome}</h3>
+                <p>${academicas.date}</p>
+            </li>
+            `}).join('')
+    
+}
+
+function updateFormaçãoExtracurricularDio(profileDate){
+    const extracurricularDio = document.getElementById('profile.formação.extracurriculares.dio')
+    const extracurricularCorsos= document.getElementById('profile.formação.extracurriculares.cursos')
+    console.log(profileDate)
+    //debugger
+    extracurricularDio.innerHTML = profileDate.formção.extracurriculares.dio.map(dio =>{
+        return `<li class="dio"> <p>Minhas conquista na DIO</p></li>
+            <li class="dio">    <img src="${dio.logo}" alt="${dio.nome}" title="${dio.nome}">  </li>
+        `}).join('')
+
+    extracurricularCorsos.innerHTML = profileDate.formção.extracurriculares.cursos.map(cursos =>{
+            return`
+            <li>
+                                <h3 class="title ">${cursos.nome}</h3>
+                                <a href="https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d">${cursos.cargaHoraria}</a>
+                            </li>
+                            `
+        }).join('')
+   
+}
+
  (async  ()=>{
      const profileDate = await fetchProfileDate()
      console.log(profileDate)
@@ -82,6 +115,8 @@ function updatePorfileInfo(profileDate){
      updateLangueagem(profileDate)
      upadatePortfolio(profileDate)
      upadateProfessionalExperience(profileDate)
+     updateFormaçãoAcademica(profileDate)
+     updateFormaçãoExtracurricularDio(profileDate)
  })()
  
  
