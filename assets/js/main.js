@@ -99,7 +99,7 @@ function updateFormaçãoExtracurricularDio(profileDate){
             return`
             <li>
                                 <h3 class="title ">${cursos.nome}</h3>
-                                <a href="https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d">${cursos.cargaHoraria}</a>
+                                <a href="https://web.dio.me/track/6e3cb1b0-bbcc-4cab-8d5c-c2c7acec960d">Carga horaria de ${cursos.cargaHoraria}</a>
                             </li>
                             `
         }).join('')
