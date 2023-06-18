@@ -3,24 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Matheus Santos</title>
+    <title>Matheus Santos</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/job.png">
 
     <!-- fonte-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/fonts/neue-machina-regular.otf">
-
     <!-- Normalize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-
     <!-- CSS Global-->
     <link rel="stylesheet" href="assets/css/global.css">
-
     <!-- CSS Header-->
     <link rel="stylesheet" href="assets/css/header.css">
     <!-- CSS Opções-->
@@ -37,109 +30,111 @@
     <link rel="stylesheet" href="assets/css/formação.css">
 </head>
 <body>
-    <main class="main">
-        <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de perfil" class="photo" id="profile.photo">
+    <main class="main glass">
+    
+            <header class="header">
+                <img src="assets/img/my-photo.png" alt="Foto de perfil" class="photo" id="profile.photo">
 
-            <h1 class="title">Olá,<br> eu sou o <br><span id="profile.name">Carrecando...</span></h1>
-            
-            <div class="information">
-                <p class="job"id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(19) 98181-4877" id="profile.phone">Carrecando...</a></p>
-                <p class="email">
-                    <a href="mailto:santos.matheus1012@gmail.com "id="profile.email">carregando...</a></p>
-            </div>
-        </header>
+                <h1 class="title">Olá,<br> eu sou o <br><span id="profile.name">Carrecando...</span></h1>
+                
+                <div class="information">
+                    <p class="job">
+                        <a href="https://www.linkedin.com/in/matheus-b-a-santos-2669a023b/" id="profile.job" target="_blank">Carregando...</a></p>
+                    <p class="location" id="profile.location">Carregando...</p>
+                    <p class="phone">
+                        <a href="tel:(19) 98181-4877" id="profile.phone">Carrecando...</a></p>
+                    <p class="email">
+                        <a href="mailto:santos.matheus1012@gmail.com "id="profile.email">carregando...</a></p>
+                </div>
+            </header>
 
-        <section class="acordeon "> <!-- skills-->
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                    <h3>Ferramentas:</h3>
-                    <ul id="profile.skills.hardSkills">
+            <section class="acordeon "> <!-- skills-->
+                <button class="trigger" type="button">
+                    <h2>Skills</h2>
+                </button>
+                <div class="content">
+                    <div class="skills">
+                        <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            
+                        </ul>
+                        </section>
+
+                        <section class="personal">
+                            <h3>Pessoal:</h3>
+                            <ul id="profile.skills.softskills">
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
+                                <li>Carregando...</li>
+
+                            </ul>
+                        </section> 
+                    </div> 
+                </div>
+
+            </section>
+
+            <section class="acordeon "> <!-- Idiomas-->
+                <button class="trigger" type="button">
+                    <h2>Idiomas</h2>
+                </button>
+                <div class="content">
+                    <ul class="languages" id="profile.languages">
+                    carregando...
+                    </ul> 
+                </div>
+            </section>
+
+            <section class="acordeon "> <!-- Formações-->
+                <button class="trigger" type="button">
+                    <h2>Formações</h2>
+                </button>
+                <div class="content">
+                    <div class=" formação">
+                        <section class="esxtracurricular"> <!-- Formação extracurricular-->
+                            <h3>Extracurriculares:</h3>
+                            <ul id="profile.formação.extracurriculares.dio">
+                            </ul> 
+                            <ul id="profile.formação.extracurriculares.cursos">
+                            </ul>
+                        </section>
+                        <section class="academicas"> <!-- Formação academica-->
+                            <h3>Academicas:</h3>
+                            <ul id="profile.formação.academica">
+                                Carregando...
+                            </ul> 
+                        </section>
+                </div>
+                </div>
+            </section>
+
+            <section class="acordeon ">  <!-- Portifolio-->
+                <button class="trigger" type="button">
+                    <h2>Portifólio</h2>
+                </button>
+                <div class="content">
+                    <ul class="portfolio" id="profile.portfolio">
+                    carregando...
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="acordeon "> <!-- Experiencias profissionaos-->
+                <button class="trigger" type="button">
+                    <h2>Expleriência Profissional</h2>
+                </button>
+                <div class="content">
+                    <ul class="experience" id="profile.professionalExperience">
+                    Carregando...
                         
                     </ul>
-                    </section>
+                </div>
 
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softskills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-
-                        </ul>
-                    </section> 
-                </div> 
-            </div>
-
-        </section>
-
-        <section class="acordeon "> <!-- Idiomas-->
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
-            <div class="content">
-                <ul class="languages" id="profile.languages">
-                   carregando...
-                </ul> 
-            </div>
-        </section>
-
-        <section class="acordeon "> <!-- Formações-->
-            <button class="trigger" type="button">
-                <h2>Formações</h2>
-            </button>
-            <div class="content">
-                <div class=" formação">
-                    <section class="esxtracurricular"> <!-- Formação extracurricular-->
-                        <h3>Extracurriculares:</h3>
-                        <ul id="profile.formação.extracurriculares.dio">
-                        </ul> 
-                        <ul id="profile.formação.extracurriculares.cursos">
-                        </ul>
-                    </section>
-                    <section class="academicas"> <!-- Formação academica-->
-                        <h3>Academicas:</h3>
-                        <ul id="profile.formação.academica">
-                            Carregando...
-                        </ul> 
-                    </section>
-             </div>
-            </div>
-        </section>
-
-        <section class="acordeon ">  <!-- Portifolio-->
-            <button class="trigger" type="button">
-                <h2>Portifólio</h2>
-            </button>
-            <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
-                  carregando...
-                </ul>
-            </div>
-
-        </section>
-
-        <section class="acordeon "> <!-- Experiencias profissionaos-->
-            <button class="trigger" type="button">
-                <h2>Expleriência Profissional</h2>
-            </button>
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                 Carregando...
-                    
-                </ul>
-            </div>
-
-        </section>
+            </section>
 
     </main>
     <script src="assets/js/api.js"></script>
