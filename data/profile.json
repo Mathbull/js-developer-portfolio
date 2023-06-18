@@ -50,7 +50,7 @@
         "nome":"JS developer",
         "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/js%20developer.jpg"
               },
-      "cursos":
+      "cursos":[
         {
           "nome": "Formação JaavaScript Developer - DIO.ME",
           "cargaHoraria":"39 horas"
@@ -59,7 +59,7 @@
           "nome": "Chat GPT - Undemy",
           "cargaHoraria":"6.5 horas"
         }
-  },
+      ]},
       "academicas":[
       {
         "nome": "UNIP - Graduação em Ciência da Computação",
