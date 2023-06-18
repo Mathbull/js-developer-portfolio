@@ -59,7 +59,7 @@
           "nome": "Chat GPT - Undemy",
           "cargaHoraria":"6.5 horas"
         }
-  ]},
+      ]},
       "academicas":[
       {
         "nome": "UNIP - Graduação em Ciência da Computação",
@@ -67,10 +67,17 @@
       },
       {
         "nome": "Trianos - Técnico de Enfermagem",
+<<<<<<< HEAD
         "date":"Conclução 2020"
       },{
         "nome": "E.E OZIEL - Ensino Médio",
         "date":"Conclução 2015"
+=======
+        "date":"Trianos - Técnico de Enfermagem"
+      },{
+        "nome": "E.E OZIEL - Ensino Médio",
+        "date":"conclução 2015"
+>>>>>>> 578f9f438f17bf1352989f4d0837037a4d2efba8
       }
 
     ]},
