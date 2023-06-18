@@ -24,7 +24,7 @@ function updatePorfileInfo(profileDate){
  
  
  
-    //console.log(photo)
+
  }
  
  function updateSoftSkills(profileDate){
@@ -88,8 +88,7 @@ function updateFormaçãoAcademica(profileDate){
 function updateFormaçãoExtracurricularDio(profileDate){
     const extracurricularDio = document.getElementById('profile.formação.extracurriculares.dio')
     const extracurricularCorsos= document.getElementById('profile.formação.extracurriculares.cursos')
-    console.log(profileDate)
-    //debugger
+    
     extracurricularDio.innerHTML = profileDate.formção.extracurriculares.dio.map(dio =>{
         return `<li class="dio"> <p>Minhas conquista na DIO</p></li>
             <li class="dio">    <img src="${dio.logo}" alt="${dio.nome}" title="${dio.nome}">  </li>
@@ -108,7 +107,6 @@ function updateFormaçãoExtracurricularDio(profileDate){
 
  (async  ()=>{
      const profileDate = await fetchProfileDate()
-     console.log(profileDate)
      updatePorfileInfo(profileDate)
      updateSoftSkills(profileDate)
      updateHardSkills(profileDate)
