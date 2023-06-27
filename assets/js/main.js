@@ -90,8 +90,7 @@ function updateFormaçãoExtracurricularDio(profileDate){
     const extracurricularCorsos= document.getElementById('profile.formação.extracurriculares.cursos')
     
     extracurricularDio.innerHTML = profileDate.formção.extracurriculares.dio.map(dio =>{
-        return `<li class="dio"> <p>Minhas conquista na DIO</p></li>
-            <li class="dio">    <img src="${dio.logo}" alt="${dio.nome}" title="${dio.nome}">  </li>
+        return `<li class="dio">    <img src="${dio.logo}" alt="${dio.nome}" title="${dio.nome}">  </li>
         `}).join('')
 
     extracurricularCorsos.innerHTML = profileDate.formção.extracurriculares.cursos.map(cursos =>{

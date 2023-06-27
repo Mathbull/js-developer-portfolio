@@ -46,13 +46,16 @@
 
   "formção":{
     "extracurriculares":{
-      "dio": [ {   
+      "dio": [ 
+        {   
         "nome":"JS developer",
         "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/js_developer.png"
-              },{
-      "nome":"Linux Fundamentals",
+        },
+        {
+        "nome":"Linux Fundamentals",
         "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/linuxIcon.png"
-              }],
+        }
+            ],
       "cursos":[
         {
           "nome": "Formação JaavaScript Developer - DIO.ME",
