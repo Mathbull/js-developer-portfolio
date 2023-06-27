@@ -15,6 +15,12 @@
     list-style: none;
     
 }
+.formação .esxtracurricular .icons{
+    flex-direction: column;
+}
+
+
+
 .esxtracurricular ul li{
     margin-bottom: 1rem;
 }
