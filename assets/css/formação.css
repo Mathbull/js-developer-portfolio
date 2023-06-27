@@ -20,9 +20,12 @@
 }
 .dio{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding: 0;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 0.5rem;
 }
 .dio p{
     font-weight: 700;
