@@ -16,7 +16,9 @@
     
 }
 .formação .esxtracurricular .icons{
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 
