@@ -89,12 +89,12 @@
 
   "portfolio": [
     {
-      "name": "Aula Ministrado na DIO para a criação de um Portifolio",
+      "name": "Criação de um Portifolio",
       "url": "https://mathbull.github.io/js-developer-portfolio/",
       "github": true
     },
     {
-      "name": "Aula Ministrado na DIO para a criação de uma Pokedex",
+      "name": "Criação de uma Pokedex",
       "url": "https://mathbull.github.io/js-developer-pokedex/index.html",
       "github": true
     },
@@ -102,7 +102,13 @@
       "name": "Atividade prática supervisionada, UNIP",
       "url": "https://mathbull.github.io/Atividade-pratica-UNIP/index.html",
       "github": true
+    },
+    {
+      "name": "Projeto Linux - Script para provisionamento de um servidor Apache",
+      "url": "https://github.com/Mathbull/linux-project2-iac",
+      "github": true
     }
+    
   ],
   "professionalExperience": [
     {
