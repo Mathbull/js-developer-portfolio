@@ -73,14 +73,14 @@
       "academicas":[
       {
         "nome": "UNIP - Graduação em Ciência da Computação",
-        "date": "Inicio em 01/23 e conclução em 2027"
+        "date": "Inicio em 01/23 e conclusão em 2027"
       },
       {
-        "nome": "Trianos - Técnico de Enfermagem",
-        "date":"Conclução 2020"
+        "nome": "Trianon - Técnico de Enfermagem",
+        "date":"Conclusão 2020"
       },{
         "nome": "E.E OZIEL - Ensino Médio",
-        "date":"Conclução 2015"
+        "date":"Conclusão 2015"
       }
 
     ]},
@@ -114,7 +114,7 @@
     {
       "name": "Enfermagem",
       "period": "2020 - até o momento",
-      "description": "Minhas experiencias profissionais são até o momento na área da saúde onde estou a mais de 3 anos.Mas permaneço do meu sonho de conhecer ainda mais o mundo da tecnologia a qual sou apaixonado."
+      "description": "Minhas experiencias profissionais são até o momento na área da saúde onde estou a mais de 3 anos. Mas permaneço do meu sonho de conhecer ainda mais o mundo da tecnologia a qual sou apaixonado."
     }
   ]
 }
