@@ -55,6 +55,11 @@
         "nome":"Linux Fundamentals",
         "logo":"https://raw.githubusercontent.com/Mathbull/js-developer-portfolio/main/assets/img/icons/tools/linuxIcon.png"
         }
+        ,
+        {
+        "nome":"Cybersecurity Specialist",
+        "logo":"https://github.com/Mathbull/js-developer-portfolio/blob/main/assets/img/icons/tools/ciber.png?raw=true"
+        }
             ],
       "cursos":[
         {
