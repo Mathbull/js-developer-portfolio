@@ -63,15 +63,15 @@
             ],
       "cursos":[
         {
-          "nome": "Formação JaavaScript Developer - DIO.ME",
+          "nome": "Formação javascript developer - DIO.ME",
           "cargaHoraria":"39 horas"
         },
         {
-          "nome": "Formação Linux Fundamentals - DIO.ME",
+          "nome": "Formação linux fundamentals - DIO.ME",
           "cargaHoraria":"23 horas"
         },
         {
-          "nome": "Formação Cybersecurity Specialist - DIO.ME",
+          "nome": "Formação cybersecurity specialist - DIO.ME",
           "cargaHoraria":"22 horas"
         },
         {
@@ -81,14 +81,14 @@
       ]},
       "academicas":[
       {
-        "nome": "UNIP - Graduação em Ciência da Computação",
+        "nome": "UNIP - Graduação em ciência da computação",
         "date": "Inicio em 01/23 e conclusão em 2027"
       },
       {
-        "nome": "Trianon - Técnico de Enfermagem",
+        "nome": "Trianon - Técnico de enfermagem",
         "date":"Conclusão 2020"
       },{
-        "nome": "E.E OZIEL - Ensino Médio",
+        "nome": "E.E Oziel - Ensino médio",
         "date":"Conclusão 2015"
       }
 
